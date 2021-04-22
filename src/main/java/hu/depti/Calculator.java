@@ -17,7 +17,7 @@ public class Calculator {
 
   public int divide(int a, int b) throws IllegalArgumentException {
     if (b == 0) {
-      throw new IllegalArgumentException("Nullával való osztás nem értelmezett");
+      throw new IllegalArgumentException("Nullával való osztás nem értelmezett!");
     }
     return a / b;
   }
